@@ -1,0 +1,85 @@
+/* Add any CSS you need to this file. */
+html {
+  background-color: #ffe6f7;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13pt;
+  background: #ffe6f7;
+  color: #000000;
+  padding: 0px 300px 0px 300px;
+}
+
+nav {
+  margin-top: 20px;
+  height: 60px;
+  background: #2100b6;
+  border: #000 solid 1px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 8px;
+  padding: 8px;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+  left: 20%;
+}
+
+nav ul li a {
+  padding: 0 70px;
+
+  display: block;
+  font: 160% 'Times New Roman', Times, serif;
+  color: #ddd;
+  text-decoration: salmon;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+header {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 20px;
+  width: 100%;
+  background: #2100b6;
+  border: #000 solid 1px;
+  color: #eee;
+  text-align: left;
+  font-size: 95%;
+  padding-top: 40px;
+  vertical-align: middle;
+}
+
+.rest {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.p {
+  line-height: 2.5em;
+}
+
+.main {
+  min-height: 50px;
+}
+
+.center {
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
